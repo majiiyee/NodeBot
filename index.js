@@ -138,7 +138,7 @@ client.once('ready', async () => {
   console.log(`Logged in as ${client.user.tag}`);
   manager.init(client.user.id);
 
-  client.user.setActivity('/help | https://discord.gg/Rg5va4PuCT', { type: ActivityType.Listening });
+  client.user.setActivity('/help | https://discord.gg/Rg5va4PuCT', { type: ActivityType.Listening 'music'});
 
   try {
     console.log('Refreshing slash commands...');
